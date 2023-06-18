@@ -197,7 +197,7 @@ function Result( {correct}) {
     <div className="result">
       <img src="https://cdn-icons-png.flaticon.com/512/2278/2278992.png" />
       <h2>Сіз {questions.length} сұрақтын {correct} сұрағына дұрыс жауап бердіңіз </h2>
-      <a href="/test"> <button>Вернуться назад</button></a>
+      <a href="/test"> <button>Тестті аяқтау</button></a>
     </div>
   );
 }

@@ -19,7 +19,7 @@
 
   &__descr {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 23px;
     margin: 10px 0 30px;
   }
@@ -45,7 +45,7 @@
   &__descr {
     margin: 20px 0;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 23px;
   }
 }
@@ -77,11 +77,14 @@
     ol {
       margin-bottom: 30px;
       margin-left: 18px;
+      li{
+        font-size: 20px;
+      }
     }
     &__descr {
       margin-bottom: 20px;
       font-weight: 400;
-      font-size: 16px;
+      font-size: 20px;
       line-height: 23px;
     }
     &__img {
