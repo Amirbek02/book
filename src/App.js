@@ -1,6 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
 
-
 import Content from './components/Content/Content';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
@@ -15,20 +14,19 @@ import './App.scss';
 
 function App() {
   return (
-      <div className="App">
-      <Header/>
+    <div className="App">
+      <Header />
       <Routes>
-        <Route path='/' element={<Content/>}/>
-        <Route path='/read' element={ <Read />}/>
-        <Route path='/about' element={ <Avtor />}/>
-        <Route path='/test' element={<Test/>}/>
-        <Route path='/test1' element={<Test1/>}/>
-        <Route path='/test2' element={<Test2/>}/>
-        <Route path='/test3' element={<Test3/>}/>
+        <Route path="/" element={<Content />} />
+        <Route path="/read" element={<Read />} />
+        <Route path="/about" element={<Avtor />} />
+        <Route path="/test" element={<Test />} />
+        <Route path="/test1" element={<Test1 />} />
+        <Route path="/test2" element={<Test2 />} />
+        <Route path="/test3" element={<Test3 />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </div>
-    
   );
 }
 

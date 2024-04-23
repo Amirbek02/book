@@ -6,7 +6,7 @@
     align-items: start;
   }
   &__title {
-    background-color: #4A66AC;
+    background-color: #4a66ac;
     width: 100%;
     margin-top: 7px;
     padding: 60px 0;
@@ -15,23 +15,29 @@
   }
   &__img {
     width: 250px;
+    margin-top: 7px;
   }
 
   &__inner {
     display: flex;
     justify-content: space-between;
     padding: 50px 0;
-
   }
   &__item {
     margin-bottom: 40px;
   }
   &__item-title {
-    border-bottom: 10px solid #4A66AC;
+    border-bottom: 10px solid #4a66ac;
     margin-bottom: 15px;
+    width: 580px;
   }
-  &__menu+ &__menu {
+  &__menu + &__menu {
     margin-left: 100px;
+  }
+  &__descr {
+    li + li {
+      margin-top: 10px;
+    }
   }
 
   &__icons {
@@ -44,7 +50,7 @@
         margin-left: 10px;
       }
     }
-    li +li {
+    li + li {
       margin-left: 30px;
     }
   }
