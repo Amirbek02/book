@@ -20,7 +20,7 @@ function Content() {
               Электронды оқулық
             </Link>
           </div>
-          <img src="img/main_photo.png" alt="" className="content__img" />
+          <img src="img/main_photo.jpg" alt="" className="content__img" />
         </div>
         <div className="annotation">
           <h2 className="annotation__title">Электронды оқулықтың аннотациясы</h2>
